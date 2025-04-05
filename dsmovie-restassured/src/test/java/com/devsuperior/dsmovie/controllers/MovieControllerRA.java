@@ -55,6 +55,7 @@ public class MovieControllerRA {
 		given()
 			.get("/movies")
 		.then()
+			.statusCode(200)
 			.body("content.title", hasItems("The Witcher", "Harry Potter e a Pedra Filosofal"));
 		
 		

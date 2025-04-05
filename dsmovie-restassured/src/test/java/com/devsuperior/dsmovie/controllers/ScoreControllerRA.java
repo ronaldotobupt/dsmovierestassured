@@ -2,6 +2,9 @@ package com.devsuperior.dsmovie.controllers;
 
 import org.junit.jupiter.api.Test;
 
+
+
+
 public class ScoreControllerRA {
 	
 	@Test

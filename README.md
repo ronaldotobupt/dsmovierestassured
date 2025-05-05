@@ -4,5 +4,5 @@
 # Testes realizados
 
 ## Consultar produto por id
-Implemente o teste de API usando o REST Assured para consultar produto com id existente. Para o teste, você deve fazer uma requisição do tipo GET 
+Foi implementado um teste de API usando o REST Assured para consultar produto com id existente. Para o teste, foi realizada  uma requisição do tipo GET, no endpoint /products/{id}
 

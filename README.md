@@ -22,6 +22,23 @@ Considerando os seguintes cenários:
   7.	Inserção de produto retorna 403 quando logado como cliente
   8.	Inserção de produto retorna 401 quando não logado como admin ou cliente
 
+## Deletar produto
+Considerando os seguintes cenários:
+  1.	Deleção de produto deleta produto existente quando logado como admin
+  2.	Deleção de produto retorna 404 para produto inexistente quando logado como admin
+  3.	Deleção de produto retorna 400 para produto dependente quando logado como admin
+  4.	Deleção de produto retorna 403 quando logado como cliente
+  5.	Deleção de produto retorna 401 quando não logado como admin ou cliente
+
+## Consultar pedido por id
+Considerando os seguintes cenários:
+  1.	Busca de pedido por id retorna pedido existente quando logado como admin
+  2.	Busca de pedido por id retorna pedido existente quando logado como cliente e o pedido pertence ao usuário
+  3.	Busca de pedido por id retorna 403 quando pedido não pertence ao usuário
+  4.	Busca de pedido por id retorna 404 para pedido inexistente quando logado como admin
+  5.	Busca de pedido por id retorna 404 para pedido inexistente quando logado como cliente
+  6.	Busca de pedido por id retorna 401 quando não logado como admin ou cliente
+
 
 
  
